@@ -1,0 +1,492 @@
+body {
+    background-color: #BD93BD;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+header {
+    display: flex;
+}
+
+main {
+    display: flex ;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logotipo {
+    width: 100%;
+    height: 100%;
+    max-width: 36em;
+    max-height: 16.4em;
+    display: flex;
+}
+
+.logo-feminista {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    max-width: 36em;
+    max-height: 16.4em;
+    width: auto;
+    height: auto;
+}
+
+.logo-feminista figcaption {
+    position:relative;
+    text-align:center;
+    margin: 1em;
+    font-size: 2.2em;
+    color: #084C61;
+    font-weight: 700;
+    text-align: center;
+}
+
+#formas {
+    display: flex;
+    flex-direction: column;
+}
+article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div{
+    display: flex;
+    margin: 0 ;
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+  
+#container figcaption {
+    position: absolute;
+    top: 3.7em;
+    right: 4.8em;
+    font-size: 1.3em;
+    color: white;
+}
+
+.forma-info {
+    display: flex;
+    max-width: 30em;
+    max-height: 28em;
+    width: 100%;
+    height: 100%;  
+    margin: 0;
+}
+
+#caixa-vermelha {
+    display: flex;
+    max-width: 28em;
+    max-height: 14em;
+    width: 100%;
+    height: 100%;  
+}
+
+#caixa {
+    display: inline-block;
+    position: relative;
+}
+  
+#formulario {
+    background-color:#F05365;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: white;
+}
+
+#legenda{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7em;
+    right: 3.5em;
+    font-size: 1.07em;
+    color: white;
+}
+
+#seta {
+    display: flex;
+    max-width: 3.7em;
+    max-height: 3.5em;
+    position: absolute;
+    top: 1.5em;
+    left: 22.5em;
+    border: 1.5px solid white;
+    border-radius: 2em;
+    padding: 0.8rem;
+}
+
+input {
+    background-color:#F05365;
+    color: white;
+    font-size: 1.9em;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    height: 3em;
+    text-anchor:focus;
+    inset:focus;
+    offset: focus;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+} 
+
+button {
+    width: 1em;
+    height: 0.5em;
+    margin: 0;
+    border: 0;
+    background: transparent url(/imagens/1.png) no-repeat center top;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+    max-height: 50em;
+    width: 100%;
+    height: 47em;  
+    align-items: flex-end;
+    justify-content: center;
+
+} 
+
+h1{
+    font-family: 'Berkshire Swash', sans-serif;
+    color: #084C61;
+    font-size: 3.7em;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: 1.8em;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 20em;
+    max-height: 50em;
+    width: 20em;
+    height: 2.5em; 
+    margin-top: -2em;
+}
+
+#imagem-1 {
+    display: flex;
+    max-width: 50em;
+    max-height: 50em;
+    width: 37em;
+    height: 47em;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#foto{
+    display: flex;
+    max-width: 50em;
+    max-height: 50em;
+    width: 29em;
+    height: 29em; 
+}
+
+#biografia {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4em;
+    flex-direction: row;
+    justify-content:center;
+    max-width: 50em;
+    max-height: 50em;
+    width: 100%;
+    height: 100%; 
+    margin-top: -7em;
+    margin-left: 6em;
+    margin-bottom: 3em;
+}
+
+footer {
+    background-color: #084C61 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+span {
+    background-color: #084C61;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin: 0.5em;
+    padding: 0.5em;
+
+}
+
+.icone {
+    display: flex;
+    max-width: 5em;
+    max-height: 1.3em;
+    width: auto;
+    height: auto;
+    margin-left: 0.5em;
+}
+
+@media screen and (max-width: 1024px) {
+    html, body {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+@media screen and (max-width: 1024px) {
+    header, section, a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .logo-feminista{
+        display: flex;
+        margin-bottom: 30% ;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-feminista figcaption {
+        display: flex;
+        font-size: 150%;
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        display: flex;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #container {
+        display: flex;
+        background-image: url(imagens/14.png);
+        background-size: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: 6%;
+        height: 50%;
+        margin-top: 10%;    
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .forma-info{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #container figcaption{
+        display:inline;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        top: 6em;   
+        right: 9em;
+        white-space: nowrap; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #caixa {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+        
+    }
+}
+@media screen and (max-width: 1024px) {
+    #caixa-vermelha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        max-height: 50%;
+        width: 70%;
+        margin-top: 3%;
+        
+    }
+}
+@media screen and (max-width: 1024px) {
+   input{
+        background-color: #F05365;
+        display: flex;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #seta{
+        display: flex;
+        max-width: 10%;
+        max-height: 40%;
+        width: 100%;
+        top: 20%;
+        left: 90%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #legenda{
+        display: flex;
+        font-size: 100%;
+        top: 100%;
+        left: 10%;        
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #titulo, h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 10%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%; 
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size: 100%;
+        margin-top: -30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #imagem-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%; 
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #foto{
+        display: flex;
+        max-width: 70%;
+        max-height: 50%;
+        width: 100%;
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #biografia{
+        display: flex;
+        font-size: 100%;
+        max-width: 50%;
+        max-height: 50%;
+        width: 100%;
+        height: 100%; 
+        margin-top: 0; 
+        margin-left: 25%;
+        margin-bottom: 25%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    footer{
+        position: absolute;
+        bottom: 0;
+       
+    }
+}
+@media screen and (max-width: 1024px) {
+    .icone{
+        margin-right: 3%;
+       
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    p{
+        font-size: 60%;
+    }
+}
